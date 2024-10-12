@@ -21,13 +21,15 @@ import com.google.accompanist.systemuicontroller.rememberSystemUiController
 private val DarkColorScheme = darkColorScheme(
     primary = Gray,
     secondary = LightGray,
-    background = LightGray
+    background = LightGray,
+    tertiary = White
 )
 
 private val LightColorScheme = lightColorScheme(
     primary = Green,
     secondary = LightGreen,
-    background = White
+    background = White,
+    tertiary = White
 )
 
 @Composable
